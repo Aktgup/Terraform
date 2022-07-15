@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-  organization = "Cloudfirstdemo"
+    organization = "Cloudfirstdemo"
 
     workspaces {
       name = "AWSBackup"
