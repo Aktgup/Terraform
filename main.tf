@@ -10,7 +10,7 @@ terraform {
     organization = "Cloudfirstdemo"
 
     workspaces {
-      name = "AWS-Cloudfirstdemo"
+      name = "AWS_Cloudfirstdemo"
     }
   }
 }
