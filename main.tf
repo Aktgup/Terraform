@@ -10,11 +10,12 @@ terraform {
     organization = "Cloudfirstdemo"
 
     workspaces {
-      name = "AWSBackup"
+      name = "AWS-Cloudfirstdemo"
     }
   }
 }
 
 provider "aws" {
   region = "us-east-1"
+  profile="default"
 }
