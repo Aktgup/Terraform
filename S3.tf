@@ -4,6 +4,6 @@ resource "aws_s3_bucket" "testbucket" {
   tags = {
     "Name" : "My bucket"
     "Env": "Dev",
-    "Video": "CloudQuickLabs"
+    "Video": "Cloudfirstdemo"
   }
 }
